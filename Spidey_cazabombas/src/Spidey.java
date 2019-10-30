@@ -7,9 +7,12 @@ public class Spidey {
 		Scanner leer = new Scanner(System.in);
 		
 		System.out.println("numero de casos");
-		int casos = leer.nextInt();
+		int casos = leerCaso.nextInt();
 		String vCasos[] = new String[casos];
-		
+		for (int i = 0; i < vCasos.length; i++) {
+			System.out.println("escribe posiciones");
+			vCasos[i] = leer.nextLine();
+		}
 		
 		
 		
