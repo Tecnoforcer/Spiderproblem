@@ -43,7 +43,7 @@ public class Spidey {
 		String mNumeroString [][]= new String[casos][3];
 		
 		for (int i = 0; i < vCasos.length; i++) {
-			System.out.println("escribe posiciones");
+
 			vCasos[i] = leer.nextLine();
 		}
 		separarNumeros(vCasos, casos, mNumeroString);
