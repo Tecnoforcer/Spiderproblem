@@ -27,10 +27,8 @@ public class Spidey {
 		
 		if (difer1 < difer2) {
 			difer = difer1;
-			System.out.println("spidey va primero a por la bomba 1");
 		}else {
 			difer = difer2;
-			System.out.println("spidey va primero a por la bomba 2");
 		}
 		return difer;
 	}
@@ -54,5 +52,4 @@ public class Spidey {
 			System.out.println(diferencia(mNumeros, i));
 		}
 	}
-
 }
